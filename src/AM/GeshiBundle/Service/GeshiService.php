@@ -11,7 +11,7 @@ class GeshiService
 	 */
 	public function parse($source, $language)
 	{
-		$geshi = \GeSHi($source, $language);
+		$geshi = new \GeSHi($source, $language);
 		return $geshi->parse_code();
 	}
 }
