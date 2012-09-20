@@ -4,7 +4,7 @@ namespace AM\GeshiBundle\Twig\Extension;
 
 use AM\GeshiBundle\Service\GeshiService;
 
-abstract class GeshiExtension extends \Twig_Extension
+class GeshiExtension extends \Twig_Extension
 {
 	/**
 	 * The service instance
