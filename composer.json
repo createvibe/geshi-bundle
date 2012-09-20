@@ -3,7 +3,7 @@
     "description":"Symfony2 Bundle For The Generic Syntax Highlighting (GeSHi) Package",
     "autoload":{
         "psr-0":{
-            "AM\\GeshiBundle":"src/AM/GeshiBundle/"
+            "AM\\GeshiBundle":"src/"
         }
     },
     "repositories":[
