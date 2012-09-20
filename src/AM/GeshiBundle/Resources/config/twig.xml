@@ -10,6 +10,7 @@
 
 	<services>
 		<service id="am.twig.geshi" class="%am.twig.geshi.class%">
+			<argument type="service" id="am.service.geshi"/>
 			<tag name="twig.extension" />
 		</service>
 	</services>
