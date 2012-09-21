@@ -12,6 +12,9 @@ class GeshiService
 	public function parse($source, $language)
 	{
 		$geshi = new \GeSHi($source, $language);
+		$geshi->set_header_type(\GESHI_HEADER_PRE);
+		$geshi->enable_line_numbers(\GESHI_FANCY_LINE_NUMBERS);
+		$geshi->enable_classes();
 		return $geshi->parse_code();
 	}
 }
