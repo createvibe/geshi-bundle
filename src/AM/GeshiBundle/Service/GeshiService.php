@@ -13,8 +13,8 @@ class GeshiService
 	{
 		$geshi = new \GeSHi($source, $language);
 		$geshi->set_header_type(\GESHI_HEADER_PRE);
-		$geshi->enable_line_numbers(\GESHI_FANCY_LINE_NUMBERS);
+		$geshi->enable_line_numbers(\GESHI_NORMAL_LINE_NUMBERS);
 		$geshi->enable_classes();
-		return $geshi->parse_code();
+		return '<div class="geshi">' . $geshi->parse_code() . '</div>';
 	}
 }
