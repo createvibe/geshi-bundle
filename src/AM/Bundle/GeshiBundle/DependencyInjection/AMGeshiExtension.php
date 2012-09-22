@@ -1,6 +1,6 @@
 <?php
 
-namespace AM\GeshiBundle\DependencyInjection;
+namespace AM\Bundle\GeshiBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;

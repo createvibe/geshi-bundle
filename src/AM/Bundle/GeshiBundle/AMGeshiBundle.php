@@ -1,6 +1,6 @@
 <?php
 
-namespace AM\GeshiBundle;
+namespace AM\Bundle\GeshiBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

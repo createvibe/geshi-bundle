@@ -1,6 +1,6 @@
 <?php
 
-namespace AM\GeshiBundle\Service;
+namespace AM\Bundle\GeshiBundle\Service;
 
 class GeshiService
 {

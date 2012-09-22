@@ -1,8 +1,8 @@
 <?php
 
-namespace AM\GeshiBundle\Twig\Extension;
+namespace AM\Bundle\GeshiBundle\Twig\Extension;
 
-use AM\GeshiBundle\Service\GeshiService;
+use AM\Bundle\GeshiBundle\Service\GeshiService;
 
 class GeshiExtension extends \Twig_Extension
 {
